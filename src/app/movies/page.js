@@ -5,11 +5,7 @@ import CommonLayout from "@/components/common-layout";
 import ManageAccounts from "@/components/manage-accounts";
 import UnauthPage from "@/components/unauth-page";
 import { GlobalContext } from "@/context";
-import {
-  getAllfavorites,
-  getTvorMoviesByGenre,
-  getAllfavorites,
-} from "@/utils";
+import { getAllfavorites, getTvorMoviesByGenre } from "@/utils";
 import { useSession } from "next-auth/react";
 import { useContext, useEffect } from "react";
 
